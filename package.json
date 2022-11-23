@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/s-ieremenko/netlify-bot-test/issues"
   },
-  "homepage": "https://github.com/s-ieremenko/netlify-bot-test#readme"
+  "homepage": "https://github.com/s-ieremenko/netlify-bot-test#readme",
+  "dependencies": {
+    "axios": "^1.2.0"
+  }
 }
