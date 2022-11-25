@@ -4,6 +4,7 @@ const messageParts = require("../../messageParts");
 const { getRandomPhoto } = require("../../photoParts");
 
 exports.handler = async (event) => {
+    console.log("Received an update from Telegram!", event.body);
     const { message } = JSON.parse(event.body);
     const { command, botName, extra } = messageParts(message.text);
 
